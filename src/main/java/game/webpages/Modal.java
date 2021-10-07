@@ -30,6 +30,7 @@ public class Modal {
         Assert.assertEquals(welcome_message_title.getText(), "Hello!");
         Assert.assertEquals(welcome_message_subtitle.getText(), "Welcome to the Evo Slot!");
 
+
     }
 
     public void closeModal() {

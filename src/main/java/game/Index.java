@@ -97,6 +97,7 @@ public class Index {
         Thread.sleep(1000);
 
         drum.startDrum();
+        Thread.sleep(7500);
     }
 
     @Test(priority = 1)
@@ -122,7 +123,7 @@ public class Index {
     @DataProvider(name = "audio_notes")
     public Object[][] allTests_data() {
         return new Object[][]{
-                {new TestData(0,2,4,6,8,10)}
+                {new TestData(0,3,4,6,9,10,12)}
         };
     }
 
